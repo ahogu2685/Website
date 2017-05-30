@@ -1,0 +1,27 @@
+body {
+  line-height: 1.42857143;
+}
+.buy {
+  color: blue;
+  font-weight:bold;
+}
+.sell {
+ font-weight:bold;
+ -webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),        url(http://img1.picmix.com/output/stamp/normal/6/0/9/4/254906_3c3d0.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+}
+.item-wrapper {
+    display: inline-block;
+    margin: 4px;
+    height: 44px;
+    position: relative;
+    padding-right: 30px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    box-shadow: 2px 2px 2px #888;
+}
+.item {
+    background: url(https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV09-5lpKKqPrxN7LEm1Rd6dd2j6eQ9N2t2wK3-ENsZ23wcIKRdQE2NwyD_FK_kLq9gJDu7p_KyyRr7nNw-z-DyIFJbNUz/360fx360f);
+}
