@@ -25,8 +25,10 @@ body {
 	background-size: contain;
     background-repeat: no-repeat;
 }
-.item {
-    background: url(https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV09-5lpKKqPrxN7LEm1Rd6dd2j6eQ9N2t2wK3-ENsZ23wcIKRdQE2NwyD_FK_kLq9gJDu7p_KyyRr7nNw-z-DyIFJbNUz/360fx360f);
+.item {   
+    background-image: url("https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV09-5lpKKqPrxN7LEm1Rd6dd2j6eQ9N2t2wK3-ENsZ23wcIKRdQE2NwyD_FK_kLq9gJDu7p_KyyRr7nNw-z-DyIFJbNUz/360fx360f");
+	background-size: contain;
+    background-repeat: no-repeat;
 }
 .item-buying {
     bottom: -1px;
@@ -56,7 +58,7 @@ body {
   Click on the <a class=sell>S</a>ilver if you are looking for <a class=sell>Sell</a> orders.</p>
   <span class="item-wrapper" style="background-color:#C8EDEA">
   <a href="/wiki/stat-increase-potions" target="_blank">
-    <span class="item" title="Potion of Defense" style="background-position:-7912px -0px">
+    <span class=item title="Potion of Defense">
     </span>
   </a>
     <a href="/offers-to/sell/AK-47 | Redline (Field-Tested)" class=item-selling title="Offers to sell AK-47 | Redline (Field-Tested)">1023</a>
